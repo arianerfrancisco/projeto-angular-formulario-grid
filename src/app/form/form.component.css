@@ -1,0 +1,41 @@
+.example-container .mat-form-field + .mat-form-field {
+  margin-left: 8px;
+}
+
+.example-container .mat-form-field {
+  width: 100%;
+}
+
+.example-container form {
+  margin-bottom: 20px;
+}
+
+.example-container form > * {
+  margin: 5px 0;
+}
+
+
+.buttons {
+  width: 50%;
+
+
+}
+
+button {
+  width: 100%;
+  color: white;
+  background-color: orange;
+}
+
+
+table {
+  width: 100%;
+}
+
+.buttons-grid-table {
+  position: absolute;
+  width: 64%;
+  left: 0.5%;
+  top: 85%;
+}
+
