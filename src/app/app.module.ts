@@ -17,8 +17,6 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatSelectModule} from '@angular/material/select';
 import {MatTableModule} from '@angular/material/table';
 import {MatGridListModule} from '@angular/material/grid-list';
-import {MatCheckboxModule} from '@angular/material/checkbox';
-import {MatPaginatorModule} from '@angular/material/paginator';
 
 
 @NgModule({
@@ -39,9 +37,7 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     MatToolbarModule,
     MatSelectModule,
     MatTableModule,
-    MatGridListModule,
-    MatCheckboxModule,
-    MatPaginatorModule
+    MatGridListModule
   ],
   providers: [],
   bootstrap: [AppComponent],
